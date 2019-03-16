@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" prefHeight="326.0" prefWidth="682.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="330.0" prefWidth="682.0" style="-fx-background-color: #85144b;" GridPane.rowIndex="2">
+         <children>
+            <Separator layoutX="277.0" layoutY="53.0" opacity="0.0" orientation="VERTICAL" prefHeight="253.0" prefWidth="21.0" />
+            <ImageView fitHeight="351.0" fitWidth="682.0" layoutY="-20.0" opacity="0.23" pickOnBounds="true">
+               <image>
+                  <Image url="@image.jpg.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="39.0" layoutY="113.0" prefHeight="30.0" prefWidth="197.0" text="WELCOME TO DRIP " textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="459.0" layoutY="268.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="157.0" style="-fx-background-color: orange;" text="LOGIN" textFill="#fcfafa">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Glow />
+               </effect>
+            </Button>
+            <RadioButton layoutX="572.0" layoutY="213.0" mnemonicParsing="false" text="Yes" textFill="#eeeded" />
+            <Label layoutX="439.0" layoutY="209.0" prefHeight="25.0" prefWidth="122.0" text="Keep me logged in?" textFill="#d3d3d3">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="312.0" layoutY="159.0" prefHeight="25.0" prefWidth="89.0" text="Password" textFill="#dddddd">
+               <font>
+                  <Font name="Calibri" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="312.0" layoutY="116.0" prefHeight="25.0" prefWidth="114.0" text="E-mail/ Username" textFill="#dddada">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="483.0" layoutY="52.0" text="LOGIN" textFill="#fffbfb">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <PasswordField layoutX="439.0" layoutY="159.0" prefHeight="25.0" prefWidth="214.0" promptText="Password" />
+            <TextField layoutX="439.0" layoutY="116.0" prefHeight="25.0" prefWidth="214.0" promptText="E-mail/Username" />
+            <Label layoutX="435.0" layoutY="234.0" prefHeight="17.0" prefWidth="128.0" text="Forgot password? Click " textFill="#e4e4e4" />
+            <Hyperlink layoutX="561.0" layoutY="231.0" prefHeight="23.0" prefWidth="46.0" text="Here!">
+               <effect>
+                  <Glow />
+               </effect>
+            </Hyperlink>
+            <ImageView fitHeight="23.0" fitWidth="21.0" layoutX="233.0" layoutY="117.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../../Downloads/water_drop.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="157.0" prefHeight="30.0" prefWidth="255.0" text="Where you can be a master in programming" textFill="#fffdfd">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Button layoutX="41.0" layoutY="209.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="182.0" style="-fx-background-color: orange;" text="REGISTER NOW!!" textFill="#f5f4f4">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Separator layoutX="291.0" layoutY="26.0" orientation="VERTICAL" prefHeight="272.0" prefWidth="6.0" />
+         </children></AnchorPane>
+   </children>
+</GridPane>
